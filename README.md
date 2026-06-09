@@ -5,6 +5,8 @@ Regulation Lab is a web-based experiment tool for studying self-organized propor
 - a lattice/PCA model based on the published proportion regulation framework
 - a billiard-style particle model inspired by an older SpriteKit prototype, where collisions act as local contacts
 
+Live demo: https://regulation-lab.vercel.app/
+
 The live `A/B` experiment and density-sweep views focus on two internal modes, `A` and `B`, with switchable transition rules:
 
 - basic symmetric contact rule `(m, n) = (1, 1)`

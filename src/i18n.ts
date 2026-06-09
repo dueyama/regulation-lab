@@ -31,6 +31,7 @@ export const TEXT = {
   ja: {
     title: "Regulation Lab",
     subtitle: "自己組織的レギュレーション実験ツール",
+    githubRepository: "GitHub リポジトリ",
     view: "ビュー",
     appearance: "外観",
     darkMode: "Dark",
@@ -106,6 +107,7 @@ export const TEXT = {
   en: {
     title: "Regulation Lab",
     subtitle: "Self-organized proportion regulation experiments",
+    githubRepository: "GitHub repository",
     view: "View",
     appearance: "Appearance",
     darkMode: "Dark",

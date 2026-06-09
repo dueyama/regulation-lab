@@ -208,6 +208,11 @@ export default function App() {
           </div>
         </header>
 
+        <a className="repository-link" href="https://github.com/dueyama/regulation-lab" target="_blank" rel="noreferrer">
+          <span>{labels.githubRepository}</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+
         <ControlGroup title={labels.view}>
           <SegmentedControl
             className="view-tabs"

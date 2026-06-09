@@ -138,6 +138,30 @@ input[type="number"] {
   filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.32));
 }
 
+.repository-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-height: 34px;
+  padding: 7px 9px;
+  border: 1px solid var(--sidebar-line);
+  border-radius: 7px;
+  color: #dce8f8;
+  background: rgba(255, 255, 255, 0.055);
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.repository-link:hover {
+  border-color: rgba(147, 197, 253, 0.46);
+  color: #ffffff;
+  background: rgba(18, 103, 242, 0.18);
+}
+
 .control-group {
   margin-top: 12px;
 }
@@ -1318,6 +1342,18 @@ circle.particle {
 .theme-light .toggle-row span,
 .theme-light .paper-parameters span {
   color: #344054;
+}
+
+.theme-light .repository-link {
+  color: #172033;
+  border-color: var(--line);
+  background: #eef3f8;
+}
+
+.theme-light .repository-link:hover {
+  color: #0f4fc1;
+  border-color: rgba(18, 103, 242, 0.34);
+  background: #e8f1ff;
 }
 
 .theme-light .segmented-control {

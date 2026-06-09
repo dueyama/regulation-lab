@@ -1,0 +1,25 @@
+# OS and editor noise
+.DS_Store
+
+# Dependencies and generated build/test output
+node_modules/
+dist/
+coverage/
+.vite/
+*.log
+npm-debug.log*
+
+# Local environment and deployment state
+.env
+.env.*
+.vercel/
+.codex/
+.agents/
+
+# Local reference material. Cite these in docs/app, but do not publish them.
+old/
+papers/
+tmp/
+
+# Generated source assets that are not required by the app runtime
+src/assets/*-source.png
